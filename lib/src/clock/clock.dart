@@ -22,7 +22,7 @@ class Clock extends StatefulWidget {
   Clock(
       {this.circleColor = const Color(0xfffe1ecf7),
         this.shadowColor = const Color(0xffd9e2ed),
-        this.clockText = ClockText.arabic,
+        this.clockText = ClockText.roman,
         this.getCurrentTime = getSystemTime,
         this.updateDuration = const Duration(seconds: 1)});
 

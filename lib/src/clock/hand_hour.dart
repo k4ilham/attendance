@@ -8,7 +8,7 @@ class HourHandPainter extends CustomPainter {
   int minutes;
 
   HourHandPainter({this.hours, this.minutes}) : hourHandPaint = new Paint() {
-    hourHandPaint.color = Color(0xff222d62);
+    hourHandPaint.color = Colors.red;
     hourHandPaint.style = PaintingStyle.stroke;
     hourHandPaint.strokeWidth = 6.0;
     hourHandPaint.strokeCap = StrokeCap.round;
